@@ -1,0 +1,120 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: navy;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+.header p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+/* About Container */
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+/* Developer Section */
+.developer {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.developer-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.developer h2 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.developer .title {
+    font-size: 1rem;
+    color: #6c63ff;
+    font-weight: bold;
+}
+
+.developer p {
+    margin: 1rem 0;
+}
+
+.highlights {
+    list-style: none;
+    padding: 0;
+}
+
+.highlights li {
+    background: #f4f4f9;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: navy;
+    color: white;
+}
+
+.footer a {
+    color: navy;
+    text-decoration: none;
+}
+
+.container {
+    text-align: center;
+  }
+  
+  .get-started-btn {
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background: linear-gradient(90deg, #0072ff, #00c6ff);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .get-started-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  }
